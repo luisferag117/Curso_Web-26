@@ -23,7 +23,9 @@ Algo sobre mí : Mi comida favorita son las hamburguesas
 **Qué hacer:** Agrega al menos tres cosas que sabes hacer (no tienen que ser de programación).  
 **Commit:** `feat(habilidades): agrega lista de habilidades`
 
-- 
+- 1- Cocinar 
+  2- Tocar el piano
+  3- Jugar Ajedrez
 
 ---
 
