@@ -1,0 +1,93 @@
+# Práctica de commits — Git · ENP6 UNAM
+
+Cada nivel te pide un cambio concreto en este archivo.  
+Edita → `git add practica-commits.md` → `git commit -m "..."`
+
+---
+
+## Nivel 1 · Preséntate
+
+**Qué hacer:** Llena los campos con tus datos.  
+**Commit:** `feat(perfil): agrega presentación de [tu nombre]`
+
+```
+Nombre     : Luis Pablo Fernández Aguirre
+GitHub     : https://github.com/luisferag117
+Algo sobre mí : Mi comida favorita son las hamburguesas
+```
+
+---
+
+## Nivel 2 · Lo que ya sabes hacer
+
+**Qué hacer:** Agrega al menos tres cosas que sabes hacer (no tienen que ser de programación).  
+**Commit:** `feat(habilidades): agrega lista de habilidades`
+
+- 1- Cocinar 
+  2- Tocar el piano
+  3- Jugar Ajedrez
+
+---
+
+## Nivel 3 · Corrige los errores
+
+**Qué hacer:** El párrafo de abajo tiene **cuatro errores**. Corrígelos todos en un solo commit.  
+**Commit:** `fix(convenciones): corrige errores en descripción de Git`
+
+> Git es un sistema de control de versiones creado en 2005 por Linux Torvalds
+> para reemplazar a SubVersion, que era de código de licencia y dejó de darse gratis al proyecto Linux.
+> Cada commit guarda una copia de todos los archivos del repositorio en ese momento,
+> identificada con un hash SHA-1 único. Para subir cambios al servidor usamos `git push`.
+
+---
+
+## Nivel 4 · Qué aprendí hoy
+
+**Qué hacer:** Escribe tres cosas concretas que aprendiste en esta sesión.  
+**Commit:** `docs(aprendizaje): agrega notas de la sesión`
+
+1. El texto apropiado de mensaje para los Commits
+2. Diferencias entre "main" y "master"
+3. Que es un Hash y para que sirve
+
+---
+
+## Nivel 5 · Tabla de comandos
+
+**Qué hacer:** Completa las celdas vacías de la tabla.  
+**Commit:** `docs(comandos): completa tabla de referencia`
+
+| Comando | ¿Qué hace? |
+|---------|------------|
+| `git init` | Inicializa un repositorio en un proyecto|
+| `git status` | Da el estado actual del branch y si hay cambios por guardar o por actualizar |
+| `git add .` | Añade archivos a un commit o repositorio |
+| `git commit -m "..."` | Hace un commit junto con un mensaje |
+| `git log --oneline` | Da los ultimos commit en solo una linea  |
+| `git push` | Empuja los archivos o commits hacia la rama principal guardandolos en el repositorio |
+
+---
+
+## Nivel 6 · Marca tu avance
+
+**Qué hacer:** Cambia `[ ]` por `[x]` en cada punto que ya dominas.  
+**Commit:** `chore(practica): actualiza checklist de avance`
+
+- [x] Hice `git init` sin ayuda
+- [x] Entiendo para qué sirve el Staging Area
+- [x] Escribí un mensaje de commit con formato Conventional Commits
+- [x] Puedo ver el historial con `git log`
+- [x] Completé todos los niveles de esta práctica
+
+---
+
+## Referencia rápida
+
+| Tipo | Cuándo |
+|------|--------|
+| `feat` | Agrego algo nuevo |
+| `fix` | Corrijo un error |
+| `docs` | Solo toco documentación o notas |
+| `style` | Formato, sin cambiar contenido |
+| `refactor` | Reorganizo sin cambiar el resultado |
+| `chore` | Tareas de mantenimiento |
