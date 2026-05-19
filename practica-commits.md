@@ -59,12 +59,12 @@ Algo sobre mí : Mi comida favorita son las hamburguesas
 
 | Comando | ¿Qué hace? |
 |---------|------------|
-| `git init` | |
-| `git status` | |
-| `git add .` | |
-| `git commit -m "..."` | |
-| `git log --oneline` | |
-| `git push` | |
+| `git init` | Inicializa un repositorio en un proyecto|
+| `git status` | Da el estado actual del branch y si hay cambios por guardar o por actualizar |
+| `git add .` | Añade archivos a un commit o repositorio |
+| `git commit -m "..."` | Hace un commit junto con un mensaje |
+| `git log --oneline` | Da los ultimos commit en solo una linea  |
+| `git push` | Empuja los archivos o commits hacia la rama principal guardandolos en el repositorio |
 
 ---
 
